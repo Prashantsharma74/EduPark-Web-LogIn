@@ -1,0 +1,80 @@
+.title {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.6m;
+}
+
+.title:before {
+    content: "";
+    height: 2px;
+    background-color: #000;
+    display: block;
+}
+
+.title:after {
+    content: "";
+    height: 2px;
+    background-color: #000;
+    display: block;
+}
+
+.row {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .first-div {
+    background: linear-gradient(to right, #0cbaba, #380036);
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-div .inner-section {
+    height: 55vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    border: 1px solid rgba(255, 255, 255, 0.56);
+    justify-content: space-between;
+}
+
+.second-div {
+    padding: 20px 10px;
+    height: 100vh;
+    font-size: 10px;
+}
+
+.second-div img{
+    height: 40px;
+    margin-right: 360px;
+}
+.second-div span h3{
+    margin-top: 10px;
+    margin-right: 270px;
+}
+.second-div .enter{
+    margin-right: 190px;
+}
+.check-in{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+}
+.check-in span{
+    display: flex;
+    justify-content: flex-start;
+}
